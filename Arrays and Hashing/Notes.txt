@@ -1,0 +1,2 @@
+for anagrams you can sort the string.
+-------
