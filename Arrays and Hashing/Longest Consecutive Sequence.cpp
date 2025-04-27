@@ -24,7 +24,7 @@ int longestConsecutive(vector<int>& nums)
             else
             {
                 maxi  = max(counter,maxi);
-                counter = 0;
+                counter = 1;
             }
         }
         maxi = max(maxi,counter);
@@ -36,4 +36,5 @@ int main()
     vector<int> v = {9,1,4,7,3,-1,0,5,8,-1,6};
     int x = longestConsecutive(v);
     cout << x << endl;
+    //accepted
 }
